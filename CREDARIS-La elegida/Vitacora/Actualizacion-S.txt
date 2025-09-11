@@ -1,0 +1,54 @@
+Muy buenas, querido compañero. Si estás leyendo esto, es porque logré hacer el "commit" (o no).
+
+En fin, las actualizaciones que he implementado en nuestro proyecto son las siguientes:
+
+Creación de base de datos: 90% funcional.
+
+Corrección en el nombrado de los formularios e implementación de las carpetas "Vistas" y "Modelos".
+
+Propiedad "IsMdiContainer = true" y "pintado" de los formularios en el panel del "dashboard", ahora llamado "FrmContenedor" (Formulario Contenedor).
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------Base de datos--------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------
+He creado y agregado la base de datos oficial, por decirlo así (la más rentable y desarrollada), ya que ofrece, en mi opinión, un 90% de usabilidad. Esta misma cuenta con procesos almacenados (esos sí no los creé yo), una sintaxis y tablas más claras, la normalización y la creación de tablas como "Método de Pago".
+
+Nota: Las tablas de estado han sido reemplazadas por la propiedad CHECK. Esta se encarga de asignar automáticamente un valor al registro. Por ejemplo:
+
+Cuando se ingresa un nuevo registro de préstamos, automáticamente se le asignará el estado de "activo". Si se desea cambiar, será por medio de comandos que se implementarán en el futuro en Windows Forms.
+
+Cuota: Para el registro de una cuota, se le asigna el estado "pendiente" y se le tendrá que asignar la fecha estipulada en el préstamo en que se comenzaría a pagar. Es necesario crear una función en C# que se encargue de "chequear" diariamente si la cuota ya fue pagada. Si no ha sido pagada y la fecha ya venció, se incrementará diariamente una mora (lo de la mora lo veremos después, porque es un poco complejo y tendríamos que tener más desarrollada la aplicación).
+
+------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------Nombres--------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+
+El proyecto presentaba una alta incongruencia en los nombres, dificultando así el uso e incrementando la posibilidad de confusión para el desarrollo. He cambiado todos los nombres de los formularios para brindar una mejor fluidez y comprensión (dentro de lo que cabe), para evitar que otro programador venga y terminemos en la generación de un "código espagueti".
+
+Esto requerirá una revisión manual para corregir posibles errores y para tener un código más limpio, en caso de que existan algunas inconsistencias o detalles de código innecesario.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------Propiedades de C#----------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Hemos pasado de una arquitectura de múltiples ventanas a una de una sola pantalla. Anteriormente, cada vez que hacías clic en un botón, tu código cerraba la ventana principal y te llevaba a un formulario completamente diferente.
+
+Lo que hicimos fue cambiar el diseño del formulario. Ahora, tu programa es una sola caja contenedora grande con un área central (tu "panelContenedor"). Cuando haces clic en un botón, no te sales de la aplicación. En cambio, la sección central cambia para mostrarte un nuevo apartado (el formulario de gestión de préstamos, de pagos, etc.).
+
+Los tres cambios clave son:
+
+En vez de abrir una ventana, mostramos un panel.
+
+Todo se hace desde un solo lugar. En lugar de repetir el mismo código en cada botón, creamos una sola función que hace el trabajo. Esto hace que el código sea más limpio y fácil de mantener.
+
+Ya no ocultamos el menú. Como todo sucede en la misma pantalla, tu menú de navegación siempre está visible, lo que hace mucho más fácil para el usuario moverse por la aplicación.
+
+En resumen, pasamos de una aplicación que abría múltiples ventanas a una que gestiona todo dentro de una sola pantalla. Es como cambiar de usar varias aplicaciones separadas a una sola con pestañas.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sin más que agregar, muchas gracias por leer esto, querido amigo PTC. Te deseo lo mejor, no te abrumes, no te exaltes. Tómate un respiro. Cuando te sientas abrumado, tómate unos 15 minutos para ti, para pensar, para ir a tomar algo. Yo sé que lo vamos a lograr. Confío en ti, por algo eres mi amigo   \(^◡^)/
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

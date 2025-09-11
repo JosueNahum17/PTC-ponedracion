@@ -1,0 +1,76 @@
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.AssemblyReference.cache
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.GestionPrestamos.resources
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.GenerateResource.cache
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.CoreCompileInputs.cache
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.Up2Date
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmAContenedor.resources
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmGestorPrestamos.resources
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmGestorPagos.resources
+C:\Users\Salem\Desktop\CREDARIS-PTC-master\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Vistas.frmGestorEmpleados.resources
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.AssemblyReference.cache
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.exe.config
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Vistas.frmGestorEmpleados.resources
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmAContenedor.resources
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmGestorPrestamos.resources
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmGestorPagos.resources
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.GestionPrestamos.resources
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.GenerateResource.cache
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.CoreCompileInputs.cache
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.Up2Date
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+D:\Escritorio\ITR\CREDARIS-La elegida\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Vistas.Poppers.frmAñadir.resources
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.AssemblyReference.cache
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.exe.config
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Vistas.frmGestorEmpleados.resources
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmAContenedor.resources
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmGestorPrestamos.resources
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmGestorPagos.resources
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.GestionPrestamos.resources
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Vistas.Poppers.frmAñadir.resources
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.GenerateResource.cache
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.CoreCompileInputs.cache
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.Up2Date
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Calix\Desktop\CREDARIS\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.AssemblyReference.cache
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.exe.config
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Vistas.frmGestorEmpleados.resources
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmAContenedor.resources
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmGestorPrestamos.resources
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.frmGestorPagos.resources
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.ADMIN.GestionPrestamos.resources
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Vistas.Poppers.frmAñadir.resources
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.GenerateResource.cache
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.CoreCompileInputs.cache
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\Credaris.csproj.Up2Date
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Vistas.Poppers.frmAñadirEmpleadobtn.resources
+C:\Users\Calix\Desktop\copia-de-credaris\CREDARIS-La elegida\APPCredaris\CapaPresentacion\obj\Debug\CapaPresentacion.Vistas.Poppers.frmEditarEmpleadobtn.resources
