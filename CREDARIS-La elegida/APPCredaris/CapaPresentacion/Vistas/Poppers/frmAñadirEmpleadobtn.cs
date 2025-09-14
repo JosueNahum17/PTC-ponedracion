@@ -162,5 +162,10 @@ namespace CapaPresentacion.Vistas.Poppers
                 this.Close();
             }
         }
+
+        private void frmAñadirEmpleadobtn_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

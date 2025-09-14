@@ -16,8 +16,8 @@ namespace CapaPresentacion.Clases
 
         private conexiondDB() {
 
-            this.Servidor = "Nahum";
-            this.Base = "Test_Apha01";
+            this.Servidor = "(localdb)\\MSSQLLocalDB"; 
+            this.Base = "Test_Apha01"; 
         }
  
     

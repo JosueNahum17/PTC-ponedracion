@@ -132,6 +132,7 @@ INSERT INTO MetodosPagos (nombreMetodo) VALUES
 ('Cheque'),
 ('PayPal'),
 ('Tarjeta de Débito'),
+('Tarjeta de Credito'),
 ('Transferencia Interbancaria'),
 ('Criptomoneda');
 
@@ -141,7 +142,9 @@ INSERT INTO Usuarios (idRol, nombreUsuario, apellidoUsuario, usuario, direccion,
 (2,'Maria','Castro','mariaca','Santa Ana','pass456'),
 (2,'Raul','Gomez','raulg','San Miguel','pass789'),
 (1,'Carlos','Martinez','carlosm','Sonsonate','passabc'),
-(2,'Ana','Martinez','anam','La Libertad','passdef');
+(2,'Ana','Martinez','anam','La Libertad','passdef'),
+(2,'Pedro','Martinez','pedm','La Libertad','passdef');
+
 
 -- Clientes
 INSERT INTO Clientes (nombre, apellido, carnet, direccion) VALUES
@@ -149,7 +152,9 @@ INSERT INTO Clientes (nombre, apellido, carnet, direccion) VALUES
 ('Daniel', 'Lopez', 'DL002', 'Direccion Ejemplo 2'),
 ('Laura', 'Perez', 'LP003', 'Direccion Ejemplo 3'),
 ('Miguel', 'Hernandez', 'MH004', 'Direccion Ejemplo 4'),
-('Gabriela', 'Torres', 'GT005', 'Direccion Ejemplo 5');
+('Gabriela', 'Torres', 'GT005', 'Direccion Ejemplo 5'),
+('Pedro', 'Miguel', 'PM006', 'Direccion Ejemplo 6');
+
 
 -- Prestamos
 INSERT INTO Prestamos (idCliente, montoTotal, interes, tiempoMeses, cuota, estado, fechaInicio, fechaRegistro) VALUES
@@ -157,7 +162,9 @@ INSERT INTO Prestamos (idCliente, montoTotal, interes, tiempoMeses, cuota, estad
 (2, 2500, 12, 6, 450, 'activo', '2025-09-02', '2025-09-02'),
 (3, 7500, 9, 36, 250, 'activo', '2025-09-03', '2025-09-03'),
 (4, 40000, 7, 60, 800, 'activo', '2025-09-04', '2025-09-04'),
-(5, 6000, 11, 12, 550, 'activo', '2025-09-05', '2025-09-05');
+(5, 6000, 11, 12, 550, 'activo', '2025-09-05', '2025-09-05'),
+(6, 7000, 11, 12, 550, 'activo', '2025-10-05', '2025-11-05');
+
 GO
 
 -- Generar las cuotas para los prestamos creados
@@ -166,6 +173,8 @@ EXEC CuotasAutomaticas @idPrestamo = 2;
 EXEC CuotasAutomaticas @idPrestamo = 3;
 EXEC CuotasAutomaticas @idPrestamo = 4;
 EXEC CuotasAutomaticas @idPrestamo = 5;
+EXEC CuotasAutomaticas @idPrestamo = 6;
+
 GO
 
 -- Pagos
@@ -173,7 +182,9 @@ GO
 INSERT INTO Pagos (idPrestamo, idCuota, idMetodoPago, montoPago) VALUES
 (1, 1, 3, 900), -- Pago de la primera cuota del préstamo 1
 (2, 2, 1, 450), -- Pago de la segunda cuota del préstamo 2
-(3, 3, 4, 250); -- Pago de la tercera cuota del préstamo 3
+(3, 3, 4, 250), -- Pago de la tercera cuota del préstamo 3
+(4, 3, 4, 250); -- Pago de la tercera cuota del préstamo 3
+
 GO
 
 -- Vistas y Procedimientos Adicionales
@@ -387,6 +398,157 @@ BEGIN
 END;
 GO
 
+-- Guardar Datos
+-- Procedimiento para guardar un pago
+-- Procedimiento para guardar un pago
+
+CREATE OR ALTER PROC SP_GUARDAR_PAGOS
+    @cNombreCliente NVARCHAR(100),
+    @cApellidoCliente NVARCHAR(100),
+    @cMetodoPago NVARCHAR(100),
+    @cmontoPago DECIMAL(12,2),
+    @cfechaPago DATE = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @idCliente INT, @idPrestamo INT, @idCuota INT, @idMetodoPago INT;
+
+    -- 1. Buscar cliente
+    SELECT @idCliente = idCliente
+    FROM Clientes
+    WHERE nombre = @cNombreCliente AND apellido = @cApellidoCliente;
+
+    IF @idCliente IS NULL
+    BEGIN
+        RAISERROR('El cliente no existe.', 16, 1);
+        RETURN;
+    END;
+
+    -- 2. Buscar préstamo activo de ese cliente
+    SELECT TOP 1 @idPrestamo = idPrestamo
+    FROM Prestamos
+    WHERE idCliente = @idCliente AND estado = 'activo'
+    ORDER BY fechaInicio;
+
+    IF @idPrestamo IS NULL
+    BEGIN
+        RAISERROR('El cliente no tiene préstamo activo.', 16, 1);
+        RETURN;
+    END;
+
+    -- 3. Buscar primera cuota pendiente de ese préstamo
+    SELECT TOP 1 @idCuota = idCuota
+    FROM Cuotas
+    WHERE idPrestamo = @idPrestamo AND estado = 'pendiente'
+    ORDER BY fechaVencimiento;
+
+    IF @idCuota IS NULL
+    BEGIN
+        RAISERROR('El préstamo no tiene cuotas pendientes.', 16, 1);
+        RETURN;
+    END;
+
+    -- 4. Buscar id del método de pago
+    SELECT @idMetodoPago = idMetodoPago
+    FROM MetodosPagos
+    WHERE nombreMetodo = @cMetodoPago;
+
+    IF @idMetodoPago IS NULL
+    BEGIN
+        RAISERROR('El método de pago no existe.', 16, 1);
+        RETURN;
+    END;
+
+    -- 5. Insertar en Pagos
+    INSERT INTO Pagos (idPrestamo, idCuota, idMetodoPago, montoPago, fechaPago)
+    VALUES (@idPrestamo, @idCuota, @idMetodoPago, @cmontoPago, ISNULL(@cfechaPago, GETDATE()));
+
+    -- 6. Retornar el registro recién insertado (igual que SP_BUSCAR_PAGOS)
+    SELECT 
+        p.idPago,
+        c.nombre AS NombreCliente,
+        c.apellido AS ApellidoCliente,
+        mp.nombreMetodo AS MetodoPago,
+        p.montoPago,
+        p.fechaPago
+    FROM Pagos p
+    INNER JOIN Prestamos pr ON p.idPrestamo = pr.idPrestamo
+    INNER JOIN Clientes c ON pr.idCliente = c.idCliente
+    INNER JOIN MetodosPagos mp ON p.idMetodoPago = mp.idMetodoPago
+    WHERE p.idPago = SCOPE_IDENTITY();
+END;
+GO
+
+CREATE OR ALTER PROCEDURE SP_EDITAR_PAGO
+    @idPago INT,
+    @idPrestamo INT,
+    @cMetodoPago NVARCHAR(100),
+    @cmontoPago DECIMAL(12,2),
+    @cfechaPago DATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @idMetodoPago INT;
+
+    -- Obtener idMetodoPago a partir del nombre de método
+    SELECT @idMetodoPago = idMetodoPago
+    FROM MetodosPagos
+    WHERE LTRIM(RTRIM(UPPER(nombreMetodo))) = LTRIM(RTRIM(UPPER(@cMetodoPago)));
+
+    IF @idMetodoPago IS NULL
+    BEGIN
+        RAISERROR('El método de pago no existe.', 16, 1);
+        RETURN;
+    END;
+
+    -- Validar existencia del pago
+    IF NOT EXISTS (SELECT 1 FROM Pagos WHERE idPago = @idPago)
+    BEGIN
+        RAISERROR('El pago no existe.', 16, 1);
+        RETURN;
+    END;
+
+    -- Validar existencia de préstamo
+    IF NOT EXISTS (SELECT 1 FROM Prestamos WHERE idPrestamo = @idPrestamo)
+    BEGIN
+        RAISERROR('El préstamo no existe.', 16, 1);
+        RETURN;
+    END;
+
+    -- Validar existencia y coherencia de cuota
+    IF NOT EXISTS (SELECT 1 FROM Cuotas WHERE idPrestamo = @idPrestamo)
+    BEGIN
+        RAISERROR('La cuota no existe o no corresponde al préstamo.', 16, 1);
+        RETURN;
+    END;
+
+    -- Actualizar el pago
+    UPDATE Pagos
+    SET 
+        idPrestamo = @idPrestamo,
+        idMetodoPago = @idMetodoPago,
+        montoPago = @cmontoPago,
+        fechaPago = @cfechaPago
+    WHERE idPago = @idPago;
+
+    -- Devolver datos actualizados con nombre y apellido separados
+    SELECT
+        p.idPago AS IDPago,
+        pr.idPrestamo AS IDPrestamo,
+        c.nombre AS NombreCliente,
+        c.apellido AS ApellidoCliente,
+        p.montoPago AS Monto,
+        m.nombreMetodo AS MetodoPago,
+        p.fechaPago AS FechadePago
+    FROM Pagos p
+    INNER JOIN Prestamos pr ON p.idPrestamo = pr.idPrestamo
+    INNER JOIN Clientes c ON pr.idCliente = c.idCliente
+    INNER JOIN MetodosPagos m ON p.idMetodoPago = m.idMetodoPago
+    WHERE p.idPago = @idPago;
+END;
+GO
 
 -- =====================================
 -- EJEMPLOS DE USO
@@ -409,3 +571,16 @@ EXEC SP_BUSCAR_CUOTAS 'pendiente';
 EXEC SP_BUSCAR_METODOS_PAGO 'Tarjeta';
 
 EXEC SP_BUSCAR_METODOS_PAGO 'PayPal';
+
+EXEC SP_BUSCAR_METODOS_PAGO 'Tarjeta de Credito';
+
+
+
+-- Caso sin préstamo (NULL)
+EXEC SP_GUARDAR_PAGOS 
+    @cNombreCliente = 'Carlos',
+    @cApellidoCliente = 'Ramírez',
+    @cMetodoPago = 'Tarjeta',
+    @cfechaPago = '2025-09-14';
+
+    EXEC sp_help SP_GUARDAR_PAGOS;
