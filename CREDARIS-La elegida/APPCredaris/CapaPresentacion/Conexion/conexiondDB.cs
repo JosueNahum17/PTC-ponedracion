@@ -13,11 +13,16 @@ namespace CapaPresentacion.Clases
         private string Base;
         private string Servidor;
         private static conexiondDB Con = null;
-
+            
         private conexiondDB() {
 
+<<<<<<< HEAD
             this.Servidor = "(localdb)\\MSSQLLocalDB"; 
             this.Base = "Test_Apha01"; 
+=======
+            this.Servidor = "NAHUM";
+            this.Base = "Test_Apha01";
+>>>>>>> 70aba8eafe3f3c38a84f0a6397916a3591aabae8
         }
  
     
