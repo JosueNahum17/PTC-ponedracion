@@ -128,6 +128,7 @@ namespace CapaPresentacion.Vistas.Poppers
                     cmd.Parameters.AddWithValue("@apellido", txtApellido.Text.Trim());
                     cmd.Parameters.AddWithValue("@usuario", txtUsuario.Text.Trim());
                     cmd.Parameters.AddWithValue("@direccion", txtDireccion.Text.Trim());
+                   
 
                     // Encriptar la contraseña antes de guardarla
                     string contraseñaEncriptada = Encriptacion.Encriptar(txtPassword.Text);

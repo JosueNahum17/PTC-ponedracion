@@ -13,10 +13,10 @@ namespace CapaPresentacion.Clases
         private string Base;
         private string Servidor;
         private static conexiondDB Con = null;
-
+            
         private conexiondDB() {
 
-            this.Servidor = "Nahum";
+            this.Servidor = "NAHUM";
             this.Base = "Test_Apha01";
         }
  

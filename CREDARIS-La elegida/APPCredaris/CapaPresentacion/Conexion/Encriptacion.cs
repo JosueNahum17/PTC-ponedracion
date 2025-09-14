@@ -1,5 +1,4 @@
-﻿// Agrega esta clase en tu proyecto
-using System;
+﻿using System;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -9,18 +8,21 @@ namespace CapaPresentacion.Clases
     {
         public static string Encriptar(string texto)
         {
-            using (SHA256 sha256Hash = SHA256.Create())
-            {
-                // ComputeHash - returns byte array
-                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(texto));
+            if (string.IsNullOrEmpty(texto))
+                return string.Empty;
 
-                // Convert byte array to a string
-                StringBuilder builder = new StringBuilder();
-                for (int i = 0; i < bytes.Length; i++)
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] bytes = Encoding.UTF8.GetBytes(texto);
+                byte[] hash = sha256.ComputeHash(bytes);
+                StringBuilder result = new StringBuilder();
+
+                foreach (byte b in hash)
                 {
-                    builder.Append(bytes[i].ToString("x2"));
+                    result.Append(b.ToString("x2"));
                 }
-                return builder.ToString();
+
+                return result.ToString();
             }
         }
     }

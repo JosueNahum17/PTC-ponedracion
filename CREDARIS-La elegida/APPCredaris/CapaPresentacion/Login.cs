@@ -1,12 +1,17 @@
 ﻿using CapaPresentacion.ADMIN;
+using CapaPresentacion.Clases;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using CapaPresentacion.Conexion;
 
 namespace CapaPresentacion
 {
     public partial class Login : Form
     {
+
+        
+
         public Login()
         {
             InitializeComponent();
@@ -70,7 +75,23 @@ namespace CapaPresentacion
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text == "admin" && txtContrasena.Text == "admin123")
+
+            string usuario = txtUsuario.Text.Trim();
+            string contrasena = txtContrasena.Text;
+
+            // Validación de campos vacíos
+            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contrasena))
+            {
+                MessageBox.Show("Por favor, complete todos los campos",
+                               "Campos incompletos",
+                               MessageBoxButtons.OK,
+                               MessageBoxIcon.Warning);
+                return;
+            }
+
+            //  ESTA ES LA PARTE IMPORTANTE QUE FALTA
+            // Llama a tu clase Logincs para verificar en la BD
+            if (Logincs.VerificarLogin(usuario, contrasena))
             {
                 frmAContenedor dashboard = new frmAContenedor();
                 dashboard.Show();
@@ -78,10 +99,14 @@ namespace CapaPresentacion
             }
             else
             {
-                MessageBox.Show("Usuario o contraseña incorrectos", "Error de inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Usuario o contraseña incorrectos",
+                               "Error de inicio de sesión",
+                               MessageBoxButtons.OK,
+                               MessageBoxIcon.Error);
             }
-
         }
+
+        
 
         private void ptbImgContrasena_Click(object sender, EventArgs e)
         {

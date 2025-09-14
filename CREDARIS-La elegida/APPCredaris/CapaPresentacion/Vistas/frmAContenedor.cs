@@ -110,5 +110,16 @@ namespace CapaPresentacion.ADMIN
         {
             Close();
         }
+
+        private void lblfecha_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void horaFecha_Tick(object sender, EventArgs e)
+        {
+            lblhora.Text = DateTime.Now.ToLongTimeString();
+            lblfecha.Text = DateTime.Now.ToLongDateString();
+        }
     }
 }

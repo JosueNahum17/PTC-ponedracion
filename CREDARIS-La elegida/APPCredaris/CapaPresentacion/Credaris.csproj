@@ -53,10 +53,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConexionDB.cs" />
     <Compile Include="Conexion\D_Empleados.cs" />
     <Compile Include="Conexion\D_MetodoDePago.cs" />
     <Compile Include="Conexion\D_Usuarios.cs" />
     <Compile Include="Conexion\Encriptacion.cs" />
+    <Compile Include="Conexion\Logincs.cs" />
     <Compile Include="Vistas\frmGestorEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
