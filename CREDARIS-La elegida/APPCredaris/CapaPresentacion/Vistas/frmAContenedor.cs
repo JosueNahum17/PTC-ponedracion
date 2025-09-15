@@ -12,6 +12,8 @@ namespace CapaPresentacion.ADMIN
         private frmGestorPagos gestorPagosForm;
         private frmGestorEmpleados gestorEmpleadosForm;
 
+        
+
         public frmAContenedor()
         {
             InitializeComponent();
@@ -120,6 +122,21 @@ namespace CapaPresentacion.ADMIN
         {
             lblhora.Text = DateTime.Now.ToLongTimeString();
             lblfecha.Text = DateTime.Now.ToLongDateString();
+        }
+
+        private void MenuVertical_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnhome_Click(object sender, EventArgs e)
+        {
+            frmAContenedor home = new frmAContenedor();
+            home.Show();
+
+            this.Hide();
+
+
         }
     }
 }

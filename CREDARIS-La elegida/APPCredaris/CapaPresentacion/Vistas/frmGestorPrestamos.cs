@@ -63,8 +63,7 @@ namespace CapaPresentacion.ADMIN
 
         private void btnGestionEmpleados_Click(object sender, EventArgs e)
         {
-            this.BackColor = Color.FromArgb(224, 224, 224);
-            btnGestionEmpleados.BackColor = Color.White;
+            
         }
 
         private void btnGestionPrestamos_Click(object sender, EventArgs e)

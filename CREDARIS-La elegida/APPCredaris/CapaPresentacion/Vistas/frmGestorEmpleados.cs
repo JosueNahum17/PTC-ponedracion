@@ -76,7 +76,17 @@ namespace CapaPresentacion.Vistas
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
+            frmEditarEmpleadobtn frm = new frmEditarEmpleadobtn();
 
+        frm.Show();
+            
+
+            if (dgvEmpleados.SelectedRows.Count >0) {
+
+              
+
+            }
+            
         }
 
 
