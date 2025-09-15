@@ -118,6 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCancelar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAX9JREFUSEud
+        VtuRwzAITCkuxaW4k5SSUlyKP6+K094gwFqQ7Mi3M/kILE8Byes1AQALgBXAZp81c/4F/OINYC8YoRyi
+        E062+wrL9kDnuYxEAgk2V5VlzfgAMUtrmbRKdIz7aoSgvJrpVFYWTLj3Qawtjj3r72BBdrLfMkdImkV5
+        5txRg5QzyJGV0k/H2RbrsRgtwYAHAfiQbKFBaFWokyo+ySY/fEw4SGpnyJbGusn1exWH3qmjctBo6sLF
+        WQ2DcAYvQBQo7lrhdoxuysRH5Shx1f6bVSY7LMhPsxs7dwQOl5yJjlZlyL+r1kGczV5eUI07o9RCYdVK
+        rviCprYqKbHxg5FBfpMcJI286mgLw5IlR7wfLUjpx9T4beS/LNrwJonM7hUvmoy1+wmLVg+WjVdc8wfQ
+        U6EBsq5VofrHQdKx6yqu4HN91ZqMqUvK8B8cmnh5h3xCxKnw3nE1Ln4LMs4pMePoIwmspTPVBliWG1C0
+        /EEwm6K5rO9gwfivy3S2f1XxDeA0JQ10AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGuardar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFKSURBVEhL7dW9
+        SiRREIZhvYYN/MmMDb0EMfYSjJQBQdxl0UDQVBHU0AswECNn3czUaK9jjTQw2FXEn0dKaqTb6bGbmVlM
+        9oOCqtP91dunu5ozgkn8xJ3B9IRdjI4Ulc1/YxVLOMWfzJvEMR6wjWcclCC4xddCvYHrtxtqhBXcZ77c
+        BcnttQqGWgDm8SvzN0DWiwk5fIX0CfiGv5mXALnW2cnuPwHk+g4e+wVMYzPzXoBWNK4CxGTc40vZUi3s
+        xxRWrPcEjOEqR/e8Ji7yXW+V238AyItTOWonNXGEha6fqw4wDH0+ID4yZhpG10B8CMj3Hx+vqeLevXc9
+        qgGYy7XvFU/aK9bSM9sEsI6bTt1U4Qlvoe4JqP2TqxSe8Bbq/4CyPhUw0JHZUQUgzozbSM5wGZA+D/1O
+        hCe8kUev6NkOwAR+5E6GpejVxvgLR71bt6klcDIAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="btnBuscar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO

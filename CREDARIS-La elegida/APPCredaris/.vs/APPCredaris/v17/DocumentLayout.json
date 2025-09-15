@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Calix\\Desktop\\copia-de-credaris\\CREDARIS-La elegida\\APPCredaris\\",
+  "WorkspaceRootPath": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|c:\\users\\calix\\desktop\\copia-de-credaris\\credaris-la elegida\\appcredaris\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,6 +18,99 @@
     {
       "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|c:\\users\\calix\\desktop\\copia-de-credaris\\credaris-la elegida\\appcredaris\\capapresentacion\\conexion\\conexionddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\conexion\\conexionddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|d:\\escritorio\\ptc-ponedracion\\credaris-la elegida\\appcredaris\\capapresentacion\\vistas\\frmgestorpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmgestorpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\frmgestorpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmgestorpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\conexion\\d_pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\conexion\\d_pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\frmadiministradorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmadiministradorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\frmgestorempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmgestorempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\entidades\\e_pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\entidades\\e_pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\conexion\\d_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\conexion\\d_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\frmgestorprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmgestorprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\frmacontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmacontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\poppers\\frmeditarempleadobtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\poppers\\frmeditarempleadobtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\poppers\\frmeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\poppers\\frmeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\poppers\\frma\u00F1adirempleadobtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\poppers\\frma\u00F1adirempleadobtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|d:\\escritorio\\ptc-ponedracion\\credaris-la elegida\\appcredaris\\capapresentacion\\vistas\\poppers\\frma\u00F1adirempleadobtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\poppers\\frma\u00F1adirempleadobtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\frmgestorempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmgestorempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\frmgestorpagos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmgestorpagos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\conexion\\d_metododepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\conexion\\d_metododepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\poppers\\frmeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\poppers\\frmeditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\vistas\\poppers\\frmeditar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\poppers\\frmeditar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\conexion\\d_empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\conexion\\d_empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\conexion\\conexionddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\conexion\\conexionddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\capapresentacion\\conexion\\encriptacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\conexion\\encriptacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|c:\\users\\calix\\desktop\\copia-de-credaris\\credaris-la elegida\\appcredaris\\capapresentacion\\vistas\\frmacontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmacontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|c:\\users\\calix\\desktop\\copia-de-credaris\\credaris-la elegida\\appcredaris\\capapresentacion\\vistas\\frmacontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{151E3BED-7933-4EBD-B271-9B7F968896B1}|CapaPresentacion\\Credaris.csproj|solutionrelative:capapresentacion\\vistas\\frmacontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> 70aba8eafe3f3c38a84f0a6397916a3591aabae8
+>>>>>>> f9ecce5f19610cbe65ba69dd94eb324ff3cd910a
     }
   ],
   "DocumentGroupContainers": [
@@ -26,23 +120,307 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Encriptacion.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\Encriptacion.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Conexion\\Encriptacion.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\Encriptacion.cs",
+              "RelativeToolTip": "CapaPresentacion\\Conexion\\Encriptacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T04:58:23.482Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmA\u00F1adirEmpleadobtn.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmA\u00F1adirEmpleadobtn.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\Poppers\\frmA\u00F1adirEmpleadobtn.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmA\u00F1adirEmpleadobtn.cs",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\Poppers\\frmA\u00F1adirEmpleadobtn.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T13:50:02.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmGestorPagos.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorPagos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\frmGestorPagos.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorPagos.cs",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\frmGestorPagos.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAswFkBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T02:00:23.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmGestorPagos.Designer.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorPagos.Designer.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\frmGestorPagos.Designer.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorPagos.Designer.cs",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\frmGestorPagos.Designer.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAqwGkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T05:44:53.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmGestorPrestamos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorPrestamos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\frmGestorPrestamos.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorPrestamos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\frmGestorPrestamos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T02:32:31.671Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmEditar.Designer.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmEditar.Designer.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\Poppers\\frmEditar.Designer.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmEditar.Designer.cs",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\Poppers\\frmEditar.Designer.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAUwAgBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:47:28.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmEditar.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmEditar.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\Poppers\\frmEditar.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmEditar.cs",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\Poppers\\frmEditar.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwCkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:40:08.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmEditar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmEditar.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\Poppers\\frmEditar.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmEditar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\Poppers\\frmEditar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:32:42.59Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmAContenedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmAContenedor.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\frmAContenedor.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmAContenedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\frmAContenedor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T05:00:06.449Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "D_Usuarios.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\D_Usuarios.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Conexion\\D_Usuarios.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\D_Usuarios.cs",
+              "RelativeToolTip": "CapaPresentacion\\Conexion\\D_Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T03:25:55.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmGestorPagos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorPagos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\frmGestorPagos.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorPagos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\frmGestorPagos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T02:00:21.891Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAdiministradorUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmAdiministradorUsuarios.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\frmAdiministradorUsuarios.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmAdiministradorUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\frmAdiministradorUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T02:00:19.942Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "E_Pagos.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Entidades\\E_Pagos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Entidades\\E_Pagos.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Entidades\\E_Pagos.cs",
+              "RelativeToolTip": "CapaPresentacion\\Entidades\\E_Pagos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T01:48:02.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "D_Pagos.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\D_Pagos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Conexion\\D_Pagos.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\D_Pagos.cs",
+              "RelativeToolTip": "CapaPresentacion\\Conexion\\D_Pagos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T01:42:57.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "D_MetodoDePago.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\D_MetodoDePago.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Conexion\\D_MetodoDePago.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\D_MetodoDePago.cs",
+              "RelativeToolTip": "CapaPresentacion\\Conexion\\D_MetodoDePago.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T01:42:54.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmA\u00F1adirEmpleadobtn.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmA\u00F1adirEmpleadobtn.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\Poppers\\frmA\u00F1adirEmpleadobtn.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmA\u00F1adirEmpleadobtn.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\Poppers\\frmA\u00F1adirEmpleadobtn.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T01:41:54.368Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmEditarEmpleadobtn.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmEditarEmpleadobtn.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\Poppers\\frmEditarEmpleadobtn.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\Poppers\\frmEditarEmpleadobtn.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\Poppers\\frmEditarEmpleadobtn.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T01:41:53.305Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "conexiondDB.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\conexiondDB.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Conexion\\conexiondDB.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\conexiondDB.cs",
+              "RelativeToolTip": "CapaPresentacion\\Conexion\\conexiondDB.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T00:55:35.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "D_Empleados.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\D_Empleados.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Conexion\\D_Empleados.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Conexion\\D_Empleados.cs",
+              "RelativeToolTip": "CapaPresentacion\\Conexion\\D_Empleados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:58:54.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmGestorEmpleados.cs",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorEmpleados.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\frmGestorEmpleados.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorEmpleados.cs",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\frmGestorEmpleados.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+=======
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Calix\\Desktop\\copia-de-credaris\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Login.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
               "ToolTip": "C:\\Users\\Calix\\Desktop\\copia-de-credaris\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Login.cs",
               "RelativeToolTip": "CapaPresentacion\\Login.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAIA9wE0AAAAAAAAAAAAAAA==",
+=======
+              "Title": "frmAContenedor.cs",
+              "DocumentMoniker": "C:\\Users\\Calix\\Desktop\\copia-de-credaris\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmAContenedor.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\frmAContenedor.cs",
+              "ToolTip": "C:\\Users\\Calix\\Desktop\\copia-de-credaris\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmAContenedor.cs",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\frmAContenedor.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAcwHkAAAA5AAAAAAAAAA==",
+>>>>>>> 70aba8eafe3f3c38a84f0a6397916a3591aabae8
+>>>>>>> f9ecce5f19610cbe65ba69dd94eb324ff3cd910a
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T02:36:07.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 4,
+              "Title": "frmGestorEmpleados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorEmpleados.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Vistas\\frmGestorEmpleados.cs",
+              "ToolTip": "D:\\Escritorio\\PTC-ponedracion\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Vistas\\frmGestorEmpleados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Vistas\\frmGestorEmpleados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:57:57.397Z",
+              "EditorCaption": " [Dise\u00F1o]"
+=======
               "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Calix\\Desktop\\copia-de-credaris\\CREDARIS-La elegida\\APPCredaris\\CapaPresentacion\\Login.cs",
@@ -52,6 +430,7 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T02:36:03.982Z",
               "EditorCaption": " [Design]"
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -78,6 +457,9 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T02:34:15.992Z",
               "EditorCaption": ""
+=======
+>>>>>>> 70aba8eafe3f3c38a84f0a6397916a3591aabae8
+>>>>>>> f9ecce5f19610cbe65ba69dd94eb324ff3cd910a
             }
           ]
         }

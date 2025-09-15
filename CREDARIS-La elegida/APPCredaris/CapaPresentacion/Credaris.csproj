@@ -58,7 +58,11 @@
     <Compile Include="Conexion\D_MetodoDePago.cs" />
     <Compile Include="Conexion\D_Usuarios.cs" />
     <Compile Include="Conexion\Encriptacion.cs" />
+<<<<<<< HEAD
+    <Compile Include="Entidades\E_Pagos.cs" />
+=======
     <Compile Include="Conexion\Logincs.cs" />
+>>>>>>> 70aba8eafe3f3c38a84f0a6397916a3591aabae8
     <Compile Include="Vistas\frmGestorEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,17 +103,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vistas\Poppers\frmAñadir.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vistas\Poppers\frmAñadir.Designer.cs">
-      <DependentUpon>frmAñadir.cs</DependentUpon>
-    </Compile>
     <Compile Include="Vistas\Poppers\frmAñadirEmpleadobtn.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vistas\Poppers\frmAñadirEmpleadobtn.Designer.cs">
       <DependentUpon>frmAñadirEmpleadobtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Poppers\frmEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Poppers\frmEditar.Designer.cs">
+      <DependentUpon>frmEditar.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Poppers\frmEditarEmpleadobtn.cs">
       <SubType>Form</SubType>
@@ -145,11 +149,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Vistas\Poppers\frmAñadir.resx">
-      <DependentUpon>frmAñadir.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Poppers\frmAñadirEmpleadobtn.resx">
       <DependentUpon>frmAñadirEmpleadobtn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Poppers\frmEditar.resx">
+      <DependentUpon>frmEditar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Poppers\frmEditarEmpleadobtn.resx">
       <DependentUpon>frmEditarEmpleadobtn.cs</DependentUpon>
